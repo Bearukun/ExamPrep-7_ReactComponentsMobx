@@ -2,7 +2,9 @@ import React, {Component} from 'react';
 import './App.css';
 import info from "./dataModel"
 import StudentTable from "./StudentTable";
+import {observer} from "mobx-react";
 
+@observer
 class App extends Component {
 
     render() {
